@@ -1,0 +1,19 @@
+#input-container {
+  position: relative;
+  
+}
+#input-container > img {
+  position: absolute;
+  top: 10.67px;
+  left: 10.67px;
+  width: 13.67px;
+  height: 13.67px;
+}
+
+#input-container > input {
+  padding-left: 34px;
+  width: 180px;
+  height: 36px;
+  line-height: 15px;
+  border: 1px solid #C0C4CC;
+}
