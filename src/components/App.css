@@ -27,3 +27,32 @@ html{
     justify-content: space-between;
     
 }
+
+.modal-header{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+#modal-movie-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.modal-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.modal-info p{
+    text-align: justify;
+}
+
+.modal-body img{
+    width: 266px;
+height: 389px;
+}
+
+.modal-body{
+    display: flex;
+}

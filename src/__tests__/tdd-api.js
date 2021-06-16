@@ -9,7 +9,7 @@ afterEach(() => {
   jest.clearAllMocks();
 });
 
-test("renders App", () => {
+test("Api call works correctly", () => {
   mockGetMovies.mockResolvedValueOnce();
 
   render(<App />);
